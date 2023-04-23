@@ -129,7 +129,7 @@ button {
   vertical-align: middle;
 }
 
-.list__item > input[type="checkbox"] {
+.list__item > .list__input-checkbox {
   margin: 0 10px;
 }
 
