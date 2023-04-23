@@ -33,11 +33,10 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task-label,
-.task-input {
+.task-label, .task-input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .new-task {
@@ -54,8 +53,7 @@ h3 {
   list-style: none;
 }
 
-input,
-button {
+input, button {
   outline: none;
 }
 
@@ -74,8 +72,7 @@ button {
 }
 
 /* Heading */
-.topic,
-.new-task-label {
+.topic, .new-task-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -85,7 +82,7 @@ button {
   text-transform: uppercase;
 }
 
-.task-input{
+.task-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -103,7 +100,7 @@ button {
 }
 
 /* New Task */
-.new-task-label{
+.new-task-label {
   display: block;
   margin: 0 0 20px;
 }
@@ -117,29 +114,28 @@ button {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.task-item >* {
+.task-item > * {
   vertical-align: middle;
 }
 
-.task-item >input[type="checkbox"] {
+.task-item > input[type="checkbox"] {
   margin: 0 10px;
 }
 
-.task-item >.task-label {
+.task-item > .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.task-item >.task-input{
-  width: 226px
+.task-item > .task-input{
+  width: 226px;
 }
 
 .button.delete .img-remove {
@@ -154,17 +150,18 @@ button {
 
 /* Completed */
 #completed-tasks .task-label {
-  text-decoration: line-through color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 .task-item .task-input {
-  display: none
+  display: none;
 }
 
 .task-item.edit-mode .task-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-item.edit-mode .task-label {
